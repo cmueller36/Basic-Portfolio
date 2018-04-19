@@ -132,12 +132,19 @@ a1:active {
 }
 
 
-input{
+input[type=text],select{
     width: 100%;
+    padding: 10px 15px;
 }
 
-textarea{
+input[type=email],select{
     width: 100%;
+    padding: 10px 15px;
+}
+
+textarea[name=message],select{
+    width: 100%;
+    padding: 10px 15px;
 }
 
 .contact{
@@ -148,4 +155,31 @@ textarea{
 
 form{
     border-top: 2px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor:pointer;
+    width: 20%;
+    margin:10px;
+    margin-top: 20px;
+}
+
+.contentbody1{
+    border-top: 2px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    line-height: 1.6;
+}
+
+img{
+    border-right:20px white solid;
+    border-bottom: 20px white solid;
 }
