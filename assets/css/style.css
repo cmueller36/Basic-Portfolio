@@ -130,3 +130,22 @@ a1:active {
     text-decoration: none;
     color: #777777;
 }
+
+
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+.contact{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+form{
+    border-top: 2px solid gray;
+}
