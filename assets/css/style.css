@@ -14,7 +14,7 @@ body{
     left: 0;
     background-color:white;
     overflow: hidden;
-    border-bottom: 10px solid #4aaaa5;
+    border-bottom: 5px solid gray
 }
 
 .navbar-left{
@@ -182,4 +182,32 @@ form{
 img{
     border-right:20px white solid;
     border-bottom: 20px white solid;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    border-top: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    height: 90%;
+}
+
+.image1{
+    height: 30%;
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+}
+
+.hangman{
+    background-color: red;
+    height: 100%
 }
