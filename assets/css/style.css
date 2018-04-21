@@ -19,7 +19,7 @@ body{
 
 .navbar-left{
     float: left;
-    font-size: 30px;
+    font-size: 45px;
     background-color: #4aaaa5;
     height: 100%;
     width:20%;
@@ -115,21 +115,7 @@ a:active {
     color: #777777;
 }
 
-a1:visited {
-    text-decoration: none;
-    color: #777777;
-}
 
-
-a1:hover {
-    text-decoration: none;
-    color: #777777;
-}
-
-a1:active {
-    text-decoration: none;
-    color: #777777;
-}
 
 
 input[type=text],select{
@@ -151,6 +137,7 @@ textarea[name=message],select{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    width: 100%;
 }
 
 form{
@@ -266,7 +253,7 @@ form{
     height: 40px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
@@ -283,7 +270,7 @@ form{
     height: 40px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
@@ -300,7 +287,7 @@ form{
     height: 40px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
@@ -317,7 +304,7 @@ form{
     height: 40px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
@@ -334,7 +321,7 @@ form{
     height: 40px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
